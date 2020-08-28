@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li l :hover{
+	color:#FFB400 ;
+}
+/* navbar*/
+
+.nav-link {
+  color: white;
+}
+
+#banner{
+  background-image: url(../image/pic1.jpg);
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.banner-text{
+	font-family: 'Amaranth', sans-serif; 
+	color:rgb(255, 255, 255);
+	position: relative;
+	padding-top: 2rem;
+}
+
+.banner-text-p{
+	margin-top: -0.6rem;
+}
+.boxs{
+	background-color: rgb(0, 0, 0);
+	width: 426px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 14px;
+	margin: 77px;
+	border-radius: 1.5rem;
+	box-shadow:-1px 1px 28px #868686;
+	color: white;
+}
+
+.catagory-box{
+	background-color: rgb(0, 0, 0);
+    width: 338px;
+    border: 0px solid rgb(255, 255, 255);
+    padding: 24px;
+    margin: 0px;
+    /* border-radius: 1rem; */
+    box-shadow: -1px 1px 28px #292929;
+    color: white;
+}
+
+.contact-boxs{
+	background-color: rgb(0, 0, 0);
+	width: 450px;
+	height: 366px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 61px;
+	margin: 31px;
+	/* border-radius: .5rem; */
+	box-shadow:-1px 1px 28px #292929;
+	color: white;
+}
+
+.icon{
+
+height: 26px;
+width: 26px;
+padding-right: 1px;
+margin-left: 0px;
+max-height: 22px;
+}
+
+.catagory-image{
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 225px;
+  display: block; 
+}
+
+.form-box{
+	
+	background-color: rgb(0, 0, 0);
+    width: 600px;
+    padding: 1px;
+	margin: 30px;
+	/* border-radius: .5rem; */
+	color: white;
+}
+
+.loginBox{
+	padding-right: 0px;
+}
+
+.loginBox input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="email"]
+{
+	background-color: black;
+	border: 1px solid rgb(255, 255, 255);
+	height: 29px;
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+}
+::placeholder
+{
+	color: #565656;
+	padding: 10px;
+}
+
+.msg{
+	padding-right: 63px;
+	padding-bottom:105px ;
+	padding-top: 20px;
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;}
+
+.btn{
+	margin-bottom: 0px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: #FFB400;
+	border-radius: 7rem;
+	
+}
+
+.jumbotron{
+	padding: 2rem 2rem;
+}
+
